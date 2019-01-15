@@ -1,0 +1,33 @@
+.main_screen {
+  width: 960px;
+  height: 700px;
+  margin: 0 auto;
+  border: 5px solid black;
+  position: relative;
+  background-image: url("space2.gif");
+  background-repeat: no-repeat;
+  background-size: 960px 700px;
+}
+
+.spaceShip {
+  position: absolute;
+}
+
+.space_1 {
+  width: 70px;
+  height: 70px;
+}
+
+.bullet {
+  position: absolute;
+  background-color: orangered;
+  border: 1px solid orange;
+  border-radius: 4px;
+}
+
+.obstacle {
+  position: absolute;
+  background-color: gray;
+  border: 1px solid black;
+  border-radius: 4px;
+}
